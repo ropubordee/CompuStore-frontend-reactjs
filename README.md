@@ -1,8 +1,20 @@
-# React + Vite
+###  Frontend (React & Zustand)
+([github.com/ropubordee/CompuStore-frontend-reactjs](https://github.com/ropubordee/CompuStore-frontend-reactjs))
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# CompuStore - Computer Store (Frontend) 🖥️
 
-Currently, two official plugins are available:
+หน้าเว็บร้านขายอุปกรณ์คอมพิวเตอร์ พัฒนาด้วย React และ Tailwind CSS โดยเน้น User Experience ที่ลื่นไหลและการจัดการสถานะตะกร้าสินค้าที่มีประสิทธิภาพ
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- **Global State Management:** ใช้ **Zustand** ในการจัดการตะกร้าสินค้า (Shopping Cart) ทำให้การเพิ่ม/ลดสินค้าทำได้รวดเร็วและข้อมูลซิงค์กันทั้งหน้าเว็บ
+- **Modern UI/UX:** ตกแต่งด้วย Tailwind CSS สไตล์ Modern พร้อมรองรับ Responsive Design นิดหน่อย
+- **Checkout Flow:** ระบบขั้นตอนการสั่งซื้อที่เชื่อมต่อกับ Stripe Checkout จำลอง
+- **Admin Dashboard:** หน้าจอสำหรับ Admin เพื่อจัดการสต็อกสินค้าและดูรายการสั่งซื้อ
+
+## 🎨 Tech Stack
+- **Library:** React.js
+- **State Management:** Zustand
+- **Styling:** Tailwind CSS
+- **HTTP Client:** Axios
+- **Payment UI:** Stripe Elements
